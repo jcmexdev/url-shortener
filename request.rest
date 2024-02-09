@@ -1,0 +1,19 @@
+GET http://127.0.0.1:8000/api/health
+content-type: application/json
+
+###
+POST http://127.0.0.1:8000/api/v1/short
+content-type: application/json
+
+{
+    "url": " https://www.google.com "
+}
+
+
+###
+POST http://127.0.0.1:8000/api/v1/short
+content-type: application/json
+
+{
+    "url": "https://github.com"
+}
